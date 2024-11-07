@@ -57,3 +57,8 @@ html,body {
 .wrapper {
   margin: 10px;
 }
+
+
+.completed {
+  text-decoration: line-through; /* 글자 가운데 삭제선 */
+}

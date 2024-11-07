@@ -15,6 +15,13 @@ import State1 from './components/R06_State1';
 import State2 from './components/R07_State2';
 import State3 from './components/R08_State3';
 
+import StateReview1 from './review/State_review1';
+import StateReview2 from './review/State_review2';
+
+import Context1 from './components/R09_Context1';
+import Context2 from './components/R10_Context2';
+import Context3 from './R11_Context3/Parent';
+
 
 
 
@@ -35,9 +42,9 @@ function App() {
       <Props1 num='2' name='김미영'/>
       <Props1/> */}
 
-      <hr/>
+      {/* <hr/> */}
 
-      <Props1 name='강감찬'
+      {/* <Props1 name='강감찬'
               age ='19'
               address='낙성대'
               gender='남자'/>
@@ -46,16 +53,28 @@ function App() {
       <Props2 name='박길동'
                     age ='32'
                     address='마포구'
-                    gender='남자'/>
+                    gender='남자'/> */}
 
-      <hr/>
-      <Props3 productName='볶음밥' price='12000'/>
+      {/* <hr/> */}
+      {/* <Props3 productName='볶음밥' price='12000'/> */}
 
       {/* State */}
-      <State1/>
+      {/* <State1/>
       <State2 init='0'/>
 
-      <State3/>
+      <State3/> */}
+
+      {/* <StateReview1/> */}
+      
+      {/* <StateReview2/> */}
+      {/* <Context1/> */}
+      {/* <Context2/> */}
+      <hr/>
+      <Context3/>
+
+
+
+
                   
 
     </>
