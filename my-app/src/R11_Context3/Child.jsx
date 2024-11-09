@@ -60,4 +60,6 @@ const Child = () => {
 
 }
 
+// import 추가
+
 export default Child;
