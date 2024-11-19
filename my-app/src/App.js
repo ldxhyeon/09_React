@@ -66,12 +66,12 @@ function App() {
 
       {/* <StateReview1/> */}
       
-      {/* <StateReview2/> */}
+      <StateReview2/>
       {/* <Context1/> */}
       {/* <Context2/> */}
       <hr/>
       
-      <Context3/>
+      {/* <Context3/> */}
 
 
 
